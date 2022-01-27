@@ -3,3 +3,7 @@ vercel
 want to override settings? No
 para llevar a produccion: run `vercel --prod`
 en scripts del json -> "deploy": "npm run test && vercel" -> ya podriamos hacer npm run deploy
+
+para crear una nueva PR:
+creamos nueva rama --> gcb "seo-and-react-integration" (creamos esta rama)
+gst (git status)

@@ -1,0 +1,5 @@
+npm i vercel -g
+vercel
+want to override settings? No
+para llevar a produccion: run `vercel --prod`
+en scripts del json -> "deploy": "npm run test && vercel" -> ya podriamos hacer npm run deploy

@@ -1,0 +1,11 @@
+.ListOfGifs {
+    /* Css Grid */
+    display: grid;
+    /* lo hacemos con repeat y fractions */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: masonry;
+    gap: 0 16px;
+    align-items: center;
+    /* para evitar que el lazy load se dispare en la primera carga de la página */
+    min-height: 100vh;
+}

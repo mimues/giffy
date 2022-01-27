@@ -1,0 +1,18 @@
+.Gif {
+    display: inline-block;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Gif-Link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Gif img {
+    width: 100%;
+    object-fit: contain;
+}
